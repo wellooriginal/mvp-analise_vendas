@@ -43,7 +43,8 @@ python
 Copiar
 Editar
 # Leitura
-df = pd.read_csv('/content/Vendas.csv')
+url = 'https://raw.githubusercontent.com/wellooriginal/mvp-analise_vendas/refs/heads/main/Vendas.csv'
+df = pd.read_csv(url)
 
 # Renomeando colunas
 df.rename(columns={
